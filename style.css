@@ -1,0 +1,26 @@
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 50%;
+    }
+}
